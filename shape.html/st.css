@@ -1,0 +1,23 @@
+/* .container{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    clip-path: circle(50%);
+    transition: all 5s ease-out;
+
+}
+ */
+
+
+ .frame{
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+    border: 3px solid crimson;
+ }
+ .shape{
+    width: 500px;
+    height: 500px;
+    background-color: lightgreen;
+    transform: rotateX(45deg);
+ }
