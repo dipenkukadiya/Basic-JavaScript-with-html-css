@@ -39,3 +39,29 @@ canvas{
     max-height: 100vw;
 }
 
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.folded-image {
+    width: 700px;
+    aspect-ratio: 1.92;
+    display: flex;
+    cursor: pointer;
+}
+
+span {
+    flex: 1;
+    height: 100%;
+    background-image: url('a.jpg');
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.folded-image:hover span {
+   transform: perspective();
+}
+
